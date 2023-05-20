@@ -3,6 +3,10 @@ import React from "react";
 function SignUpInfo({ formData, setFormData }) {
   return (
     <div className="sign-up-container">
+      {/* <div>
+        <strong>Gross Income</strong>
+        "(Salary and Other Income)"
+      </div> */}
       <input
         type="text"
         placeholder="Email..."
@@ -11,6 +15,7 @@ function SignUpInfo({ formData, setFormData }) {
           setFormData({ ...formData, email: event.target.value })
         }
       />
+      {/* <i>₹</i> */}
       <input
         type="password"
         placeholder="Password..."

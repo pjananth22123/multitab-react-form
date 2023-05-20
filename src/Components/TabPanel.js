@@ -21,12 +21,12 @@ function TabPanel(props) {
                     Prev
                   </button>
                   <button onClick={() => {
-                    if(index !== 2) {
+                    if(index !== 3) {
                       setIndex(index+1);
                       }
                       }
                   }>
-                    {index === 2 ? "Submit" : "Next"}
+                    {index === 3 ? "Submit" : "Next"}
                   </button>
               </div>
             </div>
